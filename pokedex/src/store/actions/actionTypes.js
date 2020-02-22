@@ -1,0 +1,6 @@
+export const AXIOS_DATA_LOAD = "AXIOS_DATA_LOAD";
+export const AXIOS_DATA_LOADING = "AXIOS_DATA_LOADING";
+export const TOTAL_AMOUNT = "TOTAL_AMOUNT";
+export const END_OF_DATA = "END_OF_DATA";
+export const RESET_PAGE = "RESET_PAGE";
+export const ADD_TO_MY_POKEDEX = "ADD_TO_MY_POKEDEX";

@@ -1,0 +1,5 @@
+[0220/000623.993:ERROR:process_info.cc(359)] UncheckedAllocate
+[0220/000624.541:ERROR:process_reader_win.cc(151)] SuspendThread: Access is denied. (0x5)
+[0220/000624.541:ERROR:process_reader_win.cc(151)] SuspendThread: Access is denied. (0x5)
+[0220/000624.541:ERROR:exception_snapshot_win.cc(98)] thread ID 8132 not found in process
+[0220/001248.762:ERROR:process_info.cc(359)] UncheckedAllocate
