@@ -1,10 +1,8 @@
 import {combineReducers} from 'redux'
 import cardsReducer from './cardsReducer'
-import myPokemonsReducer from "./myPokemonsReducer"
 
 export default combineReducers({
-    cards: cardsReducer,
-    myPokemons: myPokemonsReducer,
+    cards: cardsReducer
 })
 
 function rootReducer(state, action) {

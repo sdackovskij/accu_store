@@ -26,12 +26,12 @@ return (
         <div className="divider"></div>
       </li>
       <li>  
-        <NavLink className="waves-effect" to='/pokedex' activeClassName="active">
+        <NavLink className="waves-effect sidenav-close" exact to='/' activeClassName="active">
         <i className="material-icons">apps</i>All pokemons
        </NavLink>
       </li>
       <li>
-        <NavLink className="waves-effect" to='/my-pokedex' activeClassName="active">
+        <NavLink className="waves-effect sidenav-close" to='/my-pokedex' activeClassName="active" >
           <i className="material-icons">favorite</i>My pokemons
        </NavLink>
       </li>

@@ -2,13 +2,13 @@
   "pokemons": [
     {
       "name": "bulbasaur",
-      "id": 1
+      "id": 1,
+      "isMy": true,
+      "date": "2020-02-25T06:35:30.847Z"
     },
     {
       "name": "ivysaur",
-      "id": 2,
-      "isMy": true,
-      "date": "2020-02-22T06:06:02.412Z"
+      "id": 2
     },
     {
       "name": "venusaur",
@@ -16,17 +16,19 @@
     },
     {
       "name": "charmander",
-      "id": 4
+      "id": 4,
+      "isMy": true,
+      "date": "2020-02-25T06:32:35.579Z"
     },
     {
       "name": "charmeleon",
-      "id": 5,
-      "isMy": true,
-      "date": "2020-02-22T06:07:03.287Z"
+      "id": 5
     },
     {
       "name": "charizard",
-      "id": 6
+      "id": 6,
+      "isMy": true,
+      "date": "2020-02-25T06:32:33.086Z"
     },
     {
       "name": "squirtle",
@@ -34,15 +36,13 @@
     },
     {
       "name": "wartortle",
-      "id": 8,
-      "isMy": true,
-      "date": "2020-02-22T06:06:04.062Z"
+      "id": 8
     },
     {
       "name": "blastoise",
       "id": 9,
       "isMy": true,
-      "date": "2020-02-22T06:06:06.468Z"
+      "date": "2020-02-25T06:33:33.322Z"
     },
     {
       "name": "caterpie",
@@ -52,7 +52,7 @@
       "name": "metapod",
       "id": 11,
       "isMy": true,
-      "date": "2020-02-22T06:06:08.664Z"
+      "date": "2020-02-25T06:33:31.822Z"
     },
     {
       "name": "butterfree",
@@ -60,23 +60,23 @@
     },
     {
       "name": "weedle",
-      "id": 13,
-      "isMy": true,
-      "date": "2020-02-22T06:06:40.592Z"
+      "id": 13
     },
     {
       "name": "kakuna",
-      "id": 14
+      "id": 14,
+      "isMy": true,
+      "date": "2020-02-25T06:32:40.221Z"
     },
     {
       "name": "beedrill",
-      "id": 15,
-      "isMy": true,
-      "date": "2020-02-22T06:06:41.995Z"
+      "id": 15
     },
     {
       "name": "pidgey",
-      "id": 16
+      "id": 16,
+      "isMy": true,
+      "date": "2020-02-25T06:35:26.445Z"
     },
     {
       "name": "pidgeotto",
@@ -86,7 +86,7 @@
       "name": "pidgeot",
       "id": 18,
       "isMy": true,
-      "date": "2020-02-22T06:06:44.783Z"
+      "date": "2020-02-25T06:35:37.247Z"
     },
     {
       "name": "rattata",
@@ -98,19 +98,19 @@
     },
     {
       "name": "spearow",
-      "id": 21
+      "id": 21,
+      "isMy": true,
+      "date": "2020-02-25T06:35:45.125Z"
     },
     {
       "name": "fearow",
-      "id": 22,
-      "isMy": true,
-      "date": "2020-02-22T06:07:17.217Z"
+      "id": 22
     },
     {
       "name": "ekans",
       "id": 23,
       "isMy": true,
-      "date": "2020-02-22T06:06:46.397Z"
+      "date": "2020-02-25T06:36:00.717Z"
     },
     {
       "name": "arbok",
@@ -3819,64 +3819,64 @@
   ],
   "my_pokemons": [
     {
-      "name": "ivysaur",
-      "id": 2,
+      "name": "charizard",
+      "id": 6,
       "isMy": true,
-      "date": "2020-02-22T06:06:02.413Z"
+      "date": "2020-02-25T06:32:33.086Z"
     },
     {
-      "name": "wartortle",
-      "id": 8,
+      "name": "charmander",
+      "id": 4,
       "isMy": true,
-      "date": "2020-02-22T06:06:04.062Z"
+      "date": "2020-02-25T06:32:35.579Z"
     },
     {
-      "name": "blastoise",
-      "id": 9,
+      "name": "kakuna",
+      "id": 14,
       "isMy": true,
-      "date": "2020-02-22T06:06:06.468Z"
+      "date": "2020-02-25T06:32:40.221Z"
     },
     {
       "name": "metapod",
       "id": 11,
       "isMy": true,
-      "date": "2020-02-22T06:06:08.664Z"
+      "date": "2020-02-25T06:33:31.822Z"
     },
     {
-      "name": "weedle",
-      "id": 13,
+      "name": "blastoise",
+      "id": 9,
       "isMy": true,
-      "date": "2020-02-22T06:06:40.592Z"
+      "date": "2020-02-25T06:33:33.322Z"
     },
     {
-      "name": "beedrill",
-      "id": 15,
+      "name": "pidgey",
+      "id": 16,
       "isMy": true,
-      "date": "2020-02-22T06:06:41.995Z"
+      "date": "2020-02-25T06:35:26.445Z"
+    },
+    {
+      "name": "bulbasaur",
+      "id": 1,
+      "isMy": true,
+      "date": "2020-02-25T06:35:30.847Z"
     },
     {
       "name": "pidgeot",
       "id": 18,
       "isMy": true,
-      "date": "2020-02-22T06:06:44.783Z"
+      "date": "2020-02-25T06:35:37.247Z"
+    },
+    {
+      "name": "spearow",
+      "id": 21,
+      "isMy": true,
+      "date": "2020-02-25T06:35:45.125Z"
     },
     {
       "name": "ekans",
       "id": 23,
       "isMy": true,
-      "date": "2020-02-22T06:06:46.397Z"
-    },
-    {
-      "name": "charmeleon",
-      "id": 5,
-      "isMy": true,
-      "date": "2020-02-22T06:07:03.287Z"
-    },
-    {
-      "name": "fearow",
-      "id": 22,
-      "isMy": true,
-      "date": "2020-02-22T06:07:17.217Z"
+      "date": "2020-02-25T06:36:00.717Z"
     }
   ]
 }

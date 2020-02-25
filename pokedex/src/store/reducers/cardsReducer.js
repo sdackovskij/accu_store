@@ -43,9 +43,10 @@ export default function cardsReducer(state = initialState, action) {
 
     case ADD_TO_MY_POKEDEX:
       const myPokemon = [...state.pokemons];
+      
       myPokemon.forEach(item => {
-        if (item.id == action.pokemonId) {
-          (item.isMy = true), (item.date = new Date());
+        if (item.id == action.payload.id) {
+          (item.isMy = action.payload.isMy), (item.date = action.payload.date);
         }
       });
 

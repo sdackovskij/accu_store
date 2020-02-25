@@ -10,9 +10,9 @@ class App extends React.Component {
     return (
       <Layout>
         <Switch>
-          <Route path="/pokedex" exact component={Pokedex} />
-          <Route path="/my-pokedex" exact component={MyPokemons} />
-          <Route path="/pokemon/:id" exact component={OnePokemon} />
+          <Route path="/my-pokedex"  component={MyPokemons} />
+          <Route path="/pokemon/:id"  component={OnePokemon} />
+          <Route path="/" component={Pokedex} />
         </Switch>
       </Layout>
     );
