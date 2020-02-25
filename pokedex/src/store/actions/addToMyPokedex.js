@@ -17,7 +17,7 @@ export function addToMyPokedex(pokemon_name, pokemon_id) {
         date: payload.date
       })
       .then(() => {
-        dispatch(AfteraddToMyPokedex(payload));
+        dispatch(afterAddToMyPokedex(payload));
       });
 
     axios.post(`http://localhost:3000/my_pokemons`, {
@@ -29,7 +29,7 @@ export function addToMyPokedex(pokemon_name, pokemon_id) {
   };
 }
 
-export function AfteraddToMyPokedex(payload) {
+export function afterAddToMyPokedex(payload) {
   return {
     type: ADD_TO_MY_POKEDEX,
     payload

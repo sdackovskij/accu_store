@@ -122,7 +122,9 @@
     },
     {
       "name": "raichu",
-      "id": 26
+      "id": 26,
+      "isMy": true,
+      "date": "2020-02-25T08:41:36.837Z"
     },
     {
       "name": "sandshrew",
@@ -3877,6 +3879,12 @@
       "id": 23,
       "isMy": true,
       "date": "2020-02-25T06:36:00.717Z"
+    },
+    {
+      "name": "raichu",
+      "id": 26,
+      "isMy": true,
+      "date": "2020-02-25T08:41:36.837Z"
     }
   ]
 }
