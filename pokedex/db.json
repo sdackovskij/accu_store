@@ -132,11 +132,15 @@
     },
     {
       "name": "sandslash",
-      "id": 28
+      "id": 28,
+      "isMy": true,
+      "date": "2020-02-26T12:11:17.770Z"
     },
     {
       "name": "nidoran-f",
-      "id": 29
+      "id": 29,
+      "isMy": true,
+      "date": "2020-02-25T14:35:31.097Z"
     },
     {
       "name": "nidorina",
@@ -3885,6 +3889,18 @@
       "id": 26,
       "isMy": true,
       "date": "2020-02-25T08:41:36.837Z"
+    },
+    {
+      "name": "nidoran-f",
+      "id": 29,
+      "isMy": true,
+      "date": "2020-02-25T14:35:31.097Z"
+    },
+    {
+      "name": "sandslash",
+      "id": 28,
+      "isMy": true,
+      "date": "2020-02-26T12:11:17.770Z"
     }
   ]
 }

@@ -1,7 +1,6 @@
 import axios from "axios";
 import {
   AXIOS_DATA_LOAD,
-  END_OF_DATA,
   AXIOS_DATA_LOADING,
   TOTAL_AMOUNT
 } from "./actionTypes";
