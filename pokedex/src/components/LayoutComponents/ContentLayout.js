@@ -6,7 +6,7 @@ import Loading from "../ViewComponents/Loading";
 export const FIRST_LOAD = 8;
 
 class Content extends React.Component {
-  componentWillMount() {
+  componentDidMount() {
     this.props.resetPage();
     this.props.axiosData(FIRST_LOAD);
   }
