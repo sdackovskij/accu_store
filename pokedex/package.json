@@ -26,7 +26,8 @@
     "dev": "webpack --mode development",
     "dev-watch": "webpack --mode development --watch",
     "bild": "webpack --mode production",
-    "server": "webpack-dev-server --mode development --open"
+    "server": "webpack-dev-server --mode development --open",
+    "json-db": "json-server db.json"
   },
   "eslintConfig": {
     "extends": "react-app"
@@ -50,8 +51,10 @@
     "@babel/preset-env": "^7.8.4",
     "@babel/preset-react": "^7.8.3",
     "babel-loader": "^8.0.6",
+    "concurrently": "^5.1.0",
     "css-loader": "^3.4.2",
     "html-webpack-plugin": "^3.2.0",
+    "json-server": "^0.16.1",
     "mini-css-extract-plugin": "^0.9.0",
     "node-sass": "^4.13.1",
     "optimize-css-assets-webpack-plugin": "^5.0.3",

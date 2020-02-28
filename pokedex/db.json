@@ -8,7 +8,9 @@
     },
     {
       "name": "ivysaur",
-      "id": 2
+      "id": 2,
+      "isMy": true,
+      "date": "2020-02-27T16:06:31.284Z"
     },
     {
       "name": "venusaur",
@@ -3901,6 +3903,12 @@
       "id": 28,
       "isMy": true,
       "date": "2020-02-26T12:11:17.770Z"
+    },
+    {
+      "name": "ivysaur",
+      "id": 2,
+      "isMy": true,
+      "date": "2020-02-27T16:06:31.284Z"
     }
   ]
 }
